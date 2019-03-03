@@ -1,0 +1,59 @@
+.fake-umbrella-icon {
+  height: 75px;
+  padding: 20px 30px;
+  width: auto;
+}
+
+.fake-umbrella-slogan {
+  display: inline-block;
+  margin-bottom: 30px;
+  vertical-align: bottom;
+}
+
+.fake-umbrella-slogan p{
+  font-family: 'Anton';
+  font-size: 20pt;
+  margin: 0px;
+}
+
+.fake-umbrella-slogan span{
+  font-family: 'Lato';
+  font-size: 10pt;
+}
+
+.header {
+  background-color: black;
+  -webkit-display: flex;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 30px;
+}
+
+.header-button {
+  background-image: linear-gradient(to right, white, white);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 0% 0px;
+  background-color: black;
+  border: 0px;
+  font-family: 'Oswald';
+  font-size: 16pt;
+  outline:0;
+  padding: 12px 24px;
+  text-decoration: none;
+  -webkit-transition: background-size 0.2s;
+  transition: background-size 0.2s;
+}
+
+.header-button a{
+  color: white;
+  text-decoration: none;
+}
+
+.header-button:hover, .header-button:active {
+  background-size: 65% 3px;
+}
+
+.header-background {
+  background-color: white;
+}

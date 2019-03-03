@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  src:  url('./fonts/Anton/Anton-Regular.ttf') format('truetype'),
+        url('./fonts/Anton/Anton-Regular.woff') format("woff");        
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal, italic, oblique;
+  font-weight: 400;
+  src:  url('./fonts/Oswald/Oswald-Regular.ttf') format('truetype'),
+        url('./fonts/Oswald/Oswald-ExtraLight.ttf') format("truetype"),        
+        url('./fonts/Oswald/Oswald-Bold.ttf') format("truetype"),        
+        url('./fonts/Oswald/Oswald-Light.ttf') format("truetype"),        
+        url('./fonts/Oswald/Oswald-Medium.ttf') format("truetype"),        
+        url('./fonts/Oswald/Oswald-SemiBold.ttf') format("truetype");        
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal, italic, oblique;
+  font-weight: 400;
+  src:  url('./fonts/Lato/Lato-Black.ttf') format('truetype'),
+        url('./fonts/Lato/Lato-BlackItalic.ttf') format("truetype"),        
+        url('./fonts/Lato/Lato-Bold.ttf') format("truetype"),        
+        url('./fonts/Lato/Lato-BoldItalic.ttf') format("truetype"),        
+        url('./fonts/Lato/Lato-Hairline.ttf') format("truetype"),        
+        url('./fonts/Lato/Lato-HairlineItalic.ttf') format("truetype"),        
+        url('./fonts/Lato/Lato-Italic.ttf') format("truetype"),        
+        url('./fonts/Lato/Lato-Light.ttf') format("truetype"),        
+        url('./fonts/Lato/Lato-LightItalic.ttf') format("truetype"),        
+        url('./fonts/Lato/Lato-Regular.ttf') format("truetype");        
+}
+
+body {
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,20 @@
+.not-found-component {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.not-found-content {
+  flex: 1;
+  text-align: center;
+}
+
+.not-found-content p{
+  font-family: 'Oswald';
+  font-size: 40pt;
+}
+
+.not-found-content {
+  font-family: 'Lato';
+  font-size: 18pt;
+}

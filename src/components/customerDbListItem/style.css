@@ -1,0 +1,24 @@
+.active-item{
+  display: none
+}
+
+.db-list-edit {
+  background-color: lightgreen;
+  border: 0px;
+  font-family: 'Lato';
+  margin: 0px 5px;
+  padding: 5px 12px;
+}
+
+.db-list-item {
+  border: 1px solid black;
+  padding: 5px 8px;
+}
+
+.db-list-remove {
+  background-color: lightcoral;
+  border: 0px;
+  font-family: 'Lato';
+  margin: 0px 5px;
+  padding: 5px 12px;
+}
